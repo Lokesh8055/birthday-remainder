@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const List = (props) => {
   const { id, name, age, image, removePerson } = props;
@@ -11,7 +11,9 @@ const List = (props) => {
           <h4>{name}</h4>
           <p>{age} years</p>
         </div>
-        <button className="btn-primary" onClick={() => removePerson(id)}>Remove</button>
+        <button className="btn-primary" onClick={() => removePerson(id)}>
+          Remove
+        </button>
       </article>
     </>
   );
